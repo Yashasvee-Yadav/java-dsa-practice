@@ -1,0 +1,11 @@
+public class smallestellement {
+    public static void main(String args[]) {
+        int arr[] = { 12, 45, 7, 89, 34 };
+        int smallest = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < smallest)
+                smallest = arr[i];
+        }
+        System.out.println("smallest no=" + smallest);
+    }
+}
